@@ -112,7 +112,7 @@ class MyAnimalShop implements AnimalShop {
      *
      * @param customer 客户
      * @throws AnimalNotFoundException 动物未找到异常
-     * @throws IllegalStateException  动物商店未开业异常
+     * @throws IllegalStateException   动物商店未开业异常
      */
     @Override
     public void greetCustomer(Customer customer, Animal animal) throws AnimalNotFoundException, IllegalStateException {
@@ -149,7 +149,7 @@ class MyAnimalShop implements AnimalShop {
     /**
      * 处理商店已歇业的情况
      */
-    private void handleClosedShop() {
+    private void handleClosedShop() throws IllegalStateException {
         if (!this.isOpen) {
             System.out.println("商店已歇业, 无法招待客户");
             throw new IllegalStateException("商店已歇业");
