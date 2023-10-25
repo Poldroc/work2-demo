@@ -7,7 +7,7 @@ package com.west2.java.work2;
  * @author Poldroc
  * @date 2023/10/25
  */
-interface AnimalShop {
+public interface AnimalShop {
 
     /**
      * 买入新动物

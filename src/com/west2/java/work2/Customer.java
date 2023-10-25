@@ -8,7 +8,7 @@ import java.time.LocalDate;
  * @author Poldroc
  * @date 2023/10/25
  */
-class Customer {
+public class Customer {
 
     /**
      * 姓名

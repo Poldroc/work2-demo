@@ -7,7 +7,7 @@ package com.west2.java.work2;
  * @author Poldroc
  * @date 2023/10/25
  */
-enum Gender {
+public enum Gender {
 
     /**
      * 雄性

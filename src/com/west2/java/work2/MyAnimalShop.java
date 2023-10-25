@@ -11,7 +11,7 @@ import java.util.List;
  * @author Poldroc
  * @date 2023/10/25
  */
-class MyAnimalShop implements AnimalShop {
+public class MyAnimalShop implements AnimalShop {
 
     /**
      * 余额

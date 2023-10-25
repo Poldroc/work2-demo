@@ -6,7 +6,7 @@ package com.west2.java.work2;
  * @author Poldroc
  * @date 2023/10/25
  */
-class Rabbit extends Animal {
+public class Rabbit extends Animal {
     private static final double DEFAULT_BUYING_PRICE = 1500;
 
     private static final double DEFAULT_SELLING_PRICE = 3000;

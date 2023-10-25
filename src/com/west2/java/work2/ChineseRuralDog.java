@@ -6,7 +6,7 @@ package com.west2.java.work2;
  * @author Poldroc
  * @date 2023/10/25
  */
-class ChineseRuralDog extends Animal {
+public class ChineseRuralDog extends Animal {
 
     /**
      * 是否注射疫苗
