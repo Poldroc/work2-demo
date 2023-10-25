@@ -23,8 +23,9 @@ interface AnimalShop {
      * @param customer 客户
      * @param animal   动物
      * @throws AnimalNotFoundException 动物未找到异常
+     * @throws IllegalStateException  动物商店未开业异常
      */
-    void greetCustomer(Customer customer, Animal animal) throws AnimalNotFoundException;
+    void greetCustomer(Customer customer, Animal animal) throws AnimalNotFoundException, IllegalStateException;
 
     /**
      * 歇业
